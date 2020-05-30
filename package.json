@@ -1,0 +1,16 @@
+{
+  "name": "jelly-collab",
+  "version": "1.0.0",
+  "description": "collab server",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node node_modules/y-websocket/bin/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denny Luan <dennyluan@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "y-websocket": "^1.2.5",
+    "yjs": "^13.0.8"
+  }
+}
